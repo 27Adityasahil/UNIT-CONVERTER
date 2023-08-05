@@ -6,6 +6,7 @@ int Cm_to_Mlm();
 int main()
 {
     int i;
+    printf("!!!Welcome to unit conversion!!!"\n);
     printf("Choose your desired option:: \n");
     printf("1. Kilometer to meter\n");    
     printf("2. Meter to centimeter\n");    
@@ -16,17 +17,17 @@ int main()
     switch(i)
     {
         case 1: 
-        printf("Welcome to Kilometer to meter conversion::\n");
+        printf("Kilometer to meter conversion::\n");
         Km_To_M();
         break;
 
         case 2: 
-        printf("Welcome to meter to centimeter conversion::\n");
+        printf("Meter to Centimeter conversion::\n");
         M_to_cm();
         break;
 
         case 3: 
-        printf("Welcome to centimeter to millimeter conversion::\n");
+        printf("Centimeter to Millimeter conversion::\n");
         Cm_to_Mlm();
         break;
 
